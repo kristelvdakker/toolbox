@@ -1,0 +1,3 @@
+default:
+- 'newer:csscomb'
+- 'newer:watch'

@@ -1,0 +1,22 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "author": "Kristel van den Akker",
+  "description": "Toolbox packages",
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csscomb": "^3.1.1",
+    "grunt-dev-update": "^2.3.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "main": "Gruntfile.js"
+}
