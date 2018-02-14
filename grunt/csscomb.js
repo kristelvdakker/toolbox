@@ -13,7 +13,13 @@ module.exports = {
         },
         expand: true,
         cwd: '../',
-        src: ['*.css', '**/*.css'],
+        src: ['*.css', '**/*.css', '!toolbox/**', '!node_modules/**', '!build/**'],
         dest: '../'
+    },
+    build: {
+        expand: true,
+        cwd: '../build/css/',
+        src: ['**/*.css', '!*.resorted.css'],
+        dest: '../build/css/'
     }
 };
