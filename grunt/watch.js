@@ -8,7 +8,10 @@
  */
 module.exports = {
     scripts: {
-        files: '../*.css',
+        files: [
+            '../*.css',
+            '../**/*.scss'
+        ],
         tasks: 'csscomb',
         options: {
             spawn: false
