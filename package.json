@@ -1,6 +1,6 @@
 {
   "name": "toolbox",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "author": "Kristel van den Akker",
   "description": "Toolbox packages",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "grunt-csscomb": "^3.1.1",
     "grunt-dev-update": "^2.3.0",
     "load-grunt-config": "^0.19.2",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^4.0.0"
   },
   "main": "Gruntfile.js"
 }
