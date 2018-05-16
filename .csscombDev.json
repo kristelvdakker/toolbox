@@ -407,6 +407,7 @@
             "text-transform",
             "text-wrap",
             "top",
+            "touch-action",
             "-webkit-transform",
             "-moz-transform",
             "-ms-transform",
