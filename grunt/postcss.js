@@ -7,19 +7,19 @@
  * grunt.loadNpmTasks('grunt-csscomb');
  */
 module.exports = {
-    options: {
-        processors: [
-            require('autoprefixer')({
-                browsers: [
-                    'last 4 versions',
-                    'ie 9',
-                    'ie 10'
-                ]
-            }) // add vendor prefixes
-        ],
-        syntax: require('postcss-scss') // work with SCSS directly
-    },
-    dist: {
+    dev: {
+        options: {
+            processors: [
+                require('autoprefixer')({
+                    browsers: [
+                        'last 4 versions',
+                        'ie 9',
+                        'ie 10'
+                    ]
+                }) // add vendor prefixes
+            ],
+            syntax: require('postcss-scss') // work with SCSS directly
+        },
         src: [
             '../*.css',
             '../**/*.css',
