@@ -15,8 +15,8 @@
     "watch": "grunt watch"
   },
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
-    "grunt": "^1.0.2",
+    "autoprefixer": "^8.6.3",
+    "grunt": "^1.0.3",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-csscomb": "^3.1.1",
     "grunt-dev-update": "^2.3.0",
