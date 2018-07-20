@@ -19,7 +19,8 @@ module.exports = {
             '**/*.scss',
             '!toolbox/**',
             '!node_modules/**',
-            '!build/**'
+            '!build/**',
+            '!**/*.min.*'
         ],
         dest: '../'
     },
