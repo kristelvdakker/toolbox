@@ -258,6 +258,7 @@
             "flex",
             "flex-basis",
             "flex-direction",
+            "flex-flow",
             "flex-grow",
             "flex-wrap",
             "float",
