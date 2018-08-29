@@ -337,6 +337,7 @@
             "text-indent",
             "text-justify",
             "text-overflow",
+            "text-rendering",
             "text-shadow",
             "text-size-adjust",
             "text-transform",
