@@ -28,9 +28,9 @@
     "vendor-prefix-align": false,
     "sort-order": [
         [
-            "$variable",
-            "$include",
             "$import",
+            "$include",
+            "$variable",
             "-moz-animation",
             "-moz-animation-delay",
             "-moz-animation-direction",
@@ -347,6 +347,7 @@
             "touch-action",
             "transform",
             "transform-origin",
+            "transform-style",
             "transition",
             "transition-delay",
             "transition-duration",
