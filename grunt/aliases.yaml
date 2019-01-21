@@ -1,3 +1,7 @@
 default:
 - 'newer:csscomb'
 - 'newer:watch'
+
+lint:
+- 'csscomb'
+- 'sasslint'
