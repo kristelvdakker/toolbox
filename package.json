@@ -1,9 +1,13 @@
 {
   "name": "toolbox",
-  "version": "1.12.2",
+  "version": "1.13.0",
   "author": "Kristel van den Akker",
   "description": "Toolbox packages",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kristelvdakker/toolbox.git"
+  },
   "eslintConfig": {
     "env": {
       "browser": true,
