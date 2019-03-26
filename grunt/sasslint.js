@@ -14,6 +14,7 @@ module.exports = {
         '../*.css',
         '../**/*.css',
         '../**/*.scss',
+        '!../**/vendor/**',
         '!../toolbox/**',
         '!../node_modules/**',
         '!../build/**'
