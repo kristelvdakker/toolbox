@@ -260,6 +260,7 @@
             "flex-direction",
             "flex-flow",
             "flex-grow",
+            "flex-shrink",
             "flex-wrap",
             "float",
             "font",
