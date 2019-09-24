@@ -309,6 +309,7 @@
             "outline-style",
             "outline-width",
             "overflow",
+            "overflow-wrap",
             "overflow-x",
             "overflow-y",
             "padding",
