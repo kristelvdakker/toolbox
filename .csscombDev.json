@@ -293,6 +293,7 @@
             "min-height",
             "min-width",
             "min-zoom",
+            "mix-blend-mode",
             "nav-down",
             "nav-index",
             "nav-left",
