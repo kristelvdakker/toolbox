@@ -18,6 +18,11 @@
     "start": "grunt csscomb",
     "watch": "grunt watch"
   },
+  "browserslist": [
+    "defaults",
+    "> 1%",
+    "ie > 11"
+  ],
   "devDependencies": {
     "autoprefixer": "^9.6.0",
     "grunt": "^1.0.3",
