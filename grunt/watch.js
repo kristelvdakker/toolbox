@@ -12,7 +12,7 @@ module.exports = {
             '../*.css',
             '../**/*.scss'
         ],
-        tasks: 'csscomb',
+        tasks: ['csscomb', 'sass'],
         options: {
             spawn: false
         }

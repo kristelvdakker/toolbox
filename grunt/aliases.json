@@ -1,0 +1,21 @@
+{
+    "default": [
+        "csscomb",
+        "watch"
+    ],
+    "lint": [
+        "csscomb",
+        "sasslint"
+    ],
+    "update": [
+        "devUpdate"
+    ],
+    "clean": [
+        "newer:csscomb",
+        "sassyclean"
+    ],
+    "info": [
+        "sasslint",
+        "sassyclean"
+    ]
+}
