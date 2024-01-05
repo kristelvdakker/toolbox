@@ -1,10 +1,10 @@
 /**
- * The "csscomb" task
+ * The "sass" task
  *
- * The grunt plugin for sorting CSS properties in specific order.
+ * Compile Sass to CSS.
  *
- * npm install grunt-csscomb --save-dev
- * grunt.loadNpmTasks('grunt-csscomb');
+ * npm install grunt-contrib-sass --save-dev
+ * grunt.loadNpmTasks('grunt-contrib-sass');
  */
 module.exports = {
     dist: {
